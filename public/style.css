@@ -41,3 +41,25 @@ main {
 #response-text {
   font-family: 'Courier New', Courier, monospace;
 }
+
+li {
+  list-style-type: none;
+  display: block;
+}
+
+h3 {
+  text-align: center;
+}
+form > div {
+  display: flex;
+  justify-content: center;
+  margin: 0.8rem auto;
+}
+form > div > label {
+  margin-right: 0.3rem;
+}
+
+form > button {
+  display: block;
+  margin: auto;
+}
